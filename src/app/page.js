@@ -6,6 +6,7 @@ import cx from "classnames";
 import $ from "jquery";
 import "fullpage.js";
 import "fullpage.js/dist/jquery.fullpage.min.css";
+import LinkButton from "@/components/LinkButton";
 
 export default function Home() {
   React.useEffect(() => {
@@ -39,7 +40,10 @@ export const FirstPage = () => (
         <p>The World First Challenge dApp For Climate Dummies.</p>
       </div>
       <div>
-        <button>Go to Playstore</button>
+        <div className="flex gap-2">
+          <LinkButton type="apple" />
+          <LinkButton type="google" />
+        </div>
         <ul className="flex gap-4">
           <li>Home</li>
           <li>Partners</li>

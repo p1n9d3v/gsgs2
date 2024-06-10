@@ -1,8 +1,9 @@
-import { Inter } from "next/font/google";
+import { Inter, Inter_Tight } from "next/font/google";
 import cx from "classnames";
 import "@/styles/global.css";
 
 const inter = Inter({ subsets: ["latin"] });
+const inter_tight = Inter_Tight({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Create Next App",
@@ -12,7 +13,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={cx(inter.className)}>{children}</body>
+      <body className={cx(inter_tight.className, inter.className)}>
+        {children}
+      </body>
     </html>
   );
 }
