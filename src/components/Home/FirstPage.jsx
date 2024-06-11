@@ -13,15 +13,18 @@ function FirstPage() {
           "laptop:gap-y-8",
         )}
       >
-        <div>
-          <Image src="/gsgs-logo.svg" width={100} height={28} />
-        </div>
+        <Image
+          src="/gsgs-logo.svg"
+          width={100}
+          height={28}
+          className="laptop:w-[140px]"
+        />
         <div className="text-center text-white">
           <h1
             className={cx(
               "text-center font-black",
-              "mb-4 text-[32px]",
-              "laptop:text-[56px]",
+              "mb-4 text-[32px] leading-10",
+              "laptop:text-[56px] laptop:leading-[64px]",
             )}
           >
             Not for experts.

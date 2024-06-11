@@ -5,6 +5,7 @@ import $ from "jquery";
 import "fullpage.js";
 import "fullpage.js/dist/jquery.fullpage.min.css";
 import FirstPage from "@/components/Home/FirstPage";
+import SecondPage from "@/components/Home/SecondPage";
 
 export default function Home() {
   React.useEffect(() => {
@@ -15,12 +16,9 @@ export default function Home() {
   }, []);
 
   return (
-    <>
-      <div id="fullpage">
-        <FirstPage />
-        <div className="section">second page</div>
-        <div className="section">third page</div>
-      </div>{" "}
-    </>
+    <div id="fullpage">
+      <FirstPage />
+      <SecondPage />
+    </div>
   );
 }
