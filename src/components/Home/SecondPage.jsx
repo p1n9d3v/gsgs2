@@ -1,15 +1,16 @@
 import Image from "next/image";
 import LinkButton from "../LinkButton";
 import cx from "classnames";
+import Link from "next/link";
 
 function SecondPage() {
   return (
-    <section className="section p-4">
+    <section className="section relative">
       <div
         className={cx(
-          "flex gap-8",
-          "flex-col",
-          "laptop:flex-row-reverse laptop:justify-center",
+          "flex gap-8 p-4",
+          "flex-col py-16",
+          "laptop:flex-row-reverse laptop:justify-center laptop:gap-x-28",
         )}
       >
         <div
@@ -65,7 +66,31 @@ function SecondPage() {
           />
         </div>
       </div>
-      <footer></footer>
+      <footer
+        className={cx(
+          "flex border-t py-5  text-[rgba(0,0,0,0.5)] w-full px-12",
+          "flex-col justify-center items-center gap-y-6",
+          "laptop:flex-row laptop:justify-between laptop:absolute laptop:bottom-0",
+        )}
+      >
+        <p>@Climate101. All rights reserved 2024</p>
+        <ul className={cx("flex gap-6 font-medium")}>
+          <li>
+            <Link href="#">Partners</Link>
+          </li>
+          <li>
+            <Link href="#">Docs</Link>
+          </li>
+          <li>
+            <Link href="https://linktr.ee/climate101gigs" target="_blank">
+              Links
+            </Link>
+          </li>
+          <li>
+            <Link href="#">FAQs</Link>
+          </li>
+        </ul>
+      </footer>
     </section>
   );
 }

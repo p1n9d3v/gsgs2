@@ -51,7 +51,9 @@ function FirstPage() {
               <Link href="#">Docs</Link>
             </li>
             <li>
-              <Link href="#">Links</Link>
+              <Link href="https://linktr.ee/climate101gigs" target="_blank">
+                Links
+              </Link>
             </li>
             <li>
               <Link href="#">FAQs</Link>
