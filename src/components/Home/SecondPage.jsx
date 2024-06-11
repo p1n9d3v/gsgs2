@@ -9,7 +9,7 @@ function SecondPage() {
       <div
         className={cx(
           "flex gap-8 p-4",
-          "flex-col py-16",
+          "flex-col pt-16 max-laptop:pb-40",
           "laptop:flex-row-reverse laptop:justify-center laptop:gap-x-28",
         )}
       >
@@ -45,12 +45,12 @@ function SecondPage() {
               earth{" "}
             </p>
           </div>
-          <div className="flex gap-2 mb-5 [&_a]:bg-[#3160d9] [&_a]:text-white [&_img]:text-white">
+          <div className="flex gap-2  [&_a]:bg-[#3160d9] [&_a]:text-white [&_img]:text-white">
             <LinkButton type="apple" color="blue" />
             <LinkButton type="google" color="blue" />
           </div>
         </div>
-        <div className={cx("flex justify-center", "mt-8")}>
+        <div className={cx("flex justify-center")}>
           <Image
             src="/app.png"
             alt="Picture of the author"
@@ -68,9 +68,9 @@ function SecondPage() {
       </div>
       <footer
         className={cx(
-          "flex border-t py-5  text-[rgba(0,0,0,0.5)] w-full px-12",
+          "absolute bottom-0 flex border-t py-5  text-[rgba(0,0,0,0.5)] w-full px-12",
           "flex-col justify-center items-center gap-y-6",
-          "laptop:flex-row laptop:justify-between laptop:absolute laptop:bottom-0",
+          "laptop:flex-row laptop:justify-between",
         )}
       >
         <p>@Climate101. All rights reserved 2024</p>
