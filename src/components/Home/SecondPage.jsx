@@ -54,7 +54,7 @@ function SecondPage() {
           <Image
             src="/app.png"
             alt="Picture of the author"
-            sizes="100vw"
+            unoptimized
             style={{
               width: "100%",
               height: "auto",
