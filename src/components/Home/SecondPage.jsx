@@ -79,7 +79,9 @@ function SecondPage() {
             <Link href="#">Partners</Link>
           </li>
           <li>
-            <Link href="#">Docs</Link>
+            <Link href="https://climate101-docs.gitbook.io/whitepaper_v1">
+              Docs
+            </Link>
           </li>
           <li>
             <Link href="https://linktr.ee/climate101gigs" target="_blank">

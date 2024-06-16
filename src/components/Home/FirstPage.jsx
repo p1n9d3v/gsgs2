@@ -31,7 +31,10 @@ function FirstPage() {
               Not for experts.
               <br /> Just for climate dummies.
             </h1>
-            <p>The World First Challenge dApp For Climate Dummies.</p>
+            <p>
+              The World First Challenge App <br className="laptop:hidden" />
+              For Climate Dummies.
+            </p>
           </div>
           <div>
             <div className="flex gap-2 mb-5">
@@ -49,7 +52,9 @@ function FirstPage() {
                 <Link href="#">Partners</Link>
               </li>
               <li>
-                <Link href="#">Docs</Link>
+                <Link href="https://climate101-docs.gitbook.io/whitepaper_v1">
+                  Docs
+                </Link>
               </li>
               <li>
                 <Link href="https://linktr.ee/climate101gigs" target="_blank">
