@@ -49,7 +49,7 @@ function FirstPage() {
               )}
             >
               <li>
-                <Link href="#">Partners</Link>
+                <Link href="/partners">Partners</Link>
               </li>
               <li>
                 <Link href="https://climate101-docs.gitbook.io/whitepaper_v1">

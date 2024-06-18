@@ -38,7 +38,7 @@ export default function RootLayout({ children }) {
         {/* <meta property="og:image:width" content="<generated>" /> */}
         {/* <meta property="og:image:height" content="<generated>" /> */}
       </head>
-      <body className={cx(inter_tight.className, inter.className)}>
+      <body className={cx(inter_tight.className, inter.className, "h-screen")}>
         {children}
       </body>
     </html>
