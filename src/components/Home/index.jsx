@@ -9,11 +9,16 @@ import FirstPage from "@/components/Home/FirstPage";
 import SecondPage from "@/components/Home/SecondPage";
 
 export default function Home() {
+  // const router = userRouter();
   React.useEffect(() => {
     $("#fullpage").fullpage({
       scrollOverflow: true,
       sectionsColor: ["#23c796", "#fff"],
     });
+
+    () => {
+      $.fn.fullpage.destroy("all");
+    };
   }, []);
 
   return (
