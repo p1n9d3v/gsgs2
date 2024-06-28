@@ -11,14 +11,13 @@ import SecondPage from "@/components/Home/SecondPage";
 export default function Home() {
   // const router = userRouter();
   React.useEffect(() => {
+    if ($("#fullpage").fullpage() !== "") {
+      $("#fullpage").fullpage.destroy("all");
+    }
     $("#fullpage").fullpage({
       scrollOverflow: true,
       sectionsColor: ["#23c796", "#fff"],
     });
-
-    () => {
-      $.fn.fullpage.destroy("all");
-    };
   }, []);
 
   return (
