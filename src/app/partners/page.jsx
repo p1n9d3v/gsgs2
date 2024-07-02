@@ -43,6 +43,12 @@ function Partners() {
             height={70}
             className={cx("w-full", "max-w-[221px]", "laptop:max-w-[295px]")}
           />
+          <Image
+            src="/fzf.svg"
+            width={146}
+            height={90}
+            className={cx("w-full", "max-w-[146px]", "laptop:max-w-[193px]")}
+          />
         </div>
       </div>
     </section>
