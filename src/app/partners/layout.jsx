@@ -18,7 +18,7 @@ function Layout({ children }) {
       <div className="h-full pb-[113px] laptop:pb-[65px]">{children}</div>
       <footer
         className={cx(
-          "absolute bottom-0 flex border-t py-5  text-[rgba(0,0,0,0.5)]  w-full px-12",
+          "flex border-t py-5  text-[rgba(0,0,0,0.5)]  w-full px-12",
           "flex-col justify-center items-center gap-y-6",
           "laptop:flex-row laptop:justify-between",
         )}

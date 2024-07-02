@@ -3,7 +3,7 @@ import cx from "classnames";
 
 function Partners() {
   return (
-    <section className="h-full pt-8 laptop:py-20">
+    <section className="h-full pt-12 laptop:py-20">
       <div className={cx("flex flex-col items-center h-full")}>
         <div className="text-center">
           <h1
@@ -19,7 +19,7 @@ function Partners() {
         </div>
         <div
           className={cx(
-            "flex flex-1 py-4",
+            "flex flex-1 pt-12",
             "flex-col gap-8 items-center justify-center",
             "laptop:w-full laptop:flex-row laptop:justify-evenly",
           )}
