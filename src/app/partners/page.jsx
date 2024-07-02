@@ -1,10 +1,9 @@
 import Image from "next/image";
 import cx from "classnames";
-import Link from "next/link";
 
 function Partners() {
   return (
-    <section className="h-full py-12 laptop:py-20">
+    <section className="h-full pt-8 laptop:py-20">
       <div className={cx("flex flex-col items-center h-full")}>
         <div className="text-center">
           <h1
@@ -20,34 +19,34 @@ function Partners() {
         </div>
         <div
           className={cx(
-            "flex flex-1",
+            "flex flex-1 py-4",
             "flex-col gap-8 items-center justify-center",
             "laptop:w-full laptop:flex-row laptop:justify-evenly",
           )}
         >
           <Image
+            src="/fzf.svg"
+            width={146}
+            height={90}
+            className={cx("w-full", "max-w-[120px]", "laptop:max-w-[193px]")}
+          />
+          <Image
             src="/Venture.svg"
             width={240}
             height={70}
-            className={cx("w-full", "max-w-[180px]", "laptop:max-w-[241px]")}
+            className={cx("w-full", "max-w-[130px]", "laptop:max-w-[241px]")}
           />
           <Image
             src="/FirstBlock.svg"
             width={180}
             height={70}
-            className={cx("w-full", "max-w-[144px]", "laptop:max-w-[193px]")}
+            className={cx("w-full", "max-w-[130px]", "laptop:max-w-[193px]")}
           />
           <Image
             src="/Slowmist.svg"
             width={230}
             height={70}
-            className={cx("w-full", "max-w-[221px]", "laptop:max-w-[295px]")}
-          />
-          <Image
-            src="/fzf.svg"
-            width={146}
-            height={90}
-            className={cx("w-full", "max-w-[146px]", "laptop:max-w-[193px]")}
+            className={cx("w-full", "max-w-[145px]", "laptop:max-w-[295px]")}
           />
         </div>
       </div>

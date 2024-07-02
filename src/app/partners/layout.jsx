@@ -8,9 +8,9 @@ function Layout({ children }) {
       <header
         className={cx("h-16 px-3 py-4 flex justify-between", "laptop:px-12")}
       >
-        <a href="/">
+        <Link href="/">
           <Image src="/gsgs-logo-blue.svg" width={100} height={28} />
-        </a>
+        </Link>
         <div className="max-laptop:hidden">
           <Navigator />
         </div>
