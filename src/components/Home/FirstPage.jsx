@@ -39,7 +39,10 @@ function FirstPage() {
           <div>
             <div className="flex gap-2 mb-5">
               <LinkButton type="apple" />
-              <LinkButton type="google" />
+              <LinkButton
+                type="google"
+                url="https://play.google.com/store/apps/details?id=com.climate101.gigs"
+              />
             </div>
             <ul
               className={cx(

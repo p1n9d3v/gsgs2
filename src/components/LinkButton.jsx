@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import cx from "classnames";
 import Link from "next/link";
-function LinkButton({ type, color = "white" }) {
+function LinkButton({ type, color = "white", url = "" }) {
   const apple = {
     img: (
       <Image
@@ -37,7 +37,8 @@ function LinkButton({ type, color = "white" }) {
           ["text-white bg-[#3160d9]"]: color === "blue",
         },
       )}
-      href=""
+      target="_blank"
+      href={url}
     >
       {type === "apple" && (
         <>
