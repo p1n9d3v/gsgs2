@@ -47,7 +47,11 @@ function SecondPage() {
           </div>
           <div className="flex gap-2  [&_a]:bg-[#3160d9] [&_a]:text-white [&_img]:text-white">
             <LinkButton type="apple" color="blue" />
-            <LinkButton type="google" color="blue" />
+            <LinkButton
+              type="google"
+              color="blue"
+              url="https://play.google.com/store/apps/details?id=com.climate101.gigs"
+            />
           </div>
         </div>
         <div className={cx("flex justify-center")}>
