@@ -42,12 +42,12 @@ function Partners() {
             height={70}
             className={cx("w-full", "max-w-[130px]", "laptop:max-w-[193px]")}
           />
-          <Image
-            src="/Slowmist.svg"
-            width={230}
-            height={70}
-            className={cx("w-full", "max-w-[145px]", "laptop:max-w-[295px]")}
-          />
+          {/* <Image */}
+          {/*   src="/Slowmist.svg" */}
+          {/*   width={230} */}
+          {/*   height={70} */}
+          {/*   className={cx("w-full", "max-w-[145px]", "laptop:max-w-[295px]")} */}
+          {/* /> */}
         </div>
       </div>
     </section>
