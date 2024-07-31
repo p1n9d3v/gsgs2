@@ -42,6 +42,12 @@ function Partners() {
             height={70}
             className={cx("w-full", "max-w-[130px]", "laptop:max-w-[193px]")}
           />
+          <Image
+            src="/Layer-otc.webp"
+            width={230}
+            height={70}
+            className={cx("w-full", "max-w-[180px]", "laptop:max-w-[300px]")}
+          />
           {/* <Image */}
           {/*   src="/Slowmist.svg" */}
           {/*   width={230} */}

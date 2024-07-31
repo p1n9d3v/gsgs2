@@ -5,8 +5,7 @@ const nextConfig = {
   output: "export",
   distDir: "out",
   images: {
-    loader: "akamai",
-    path: "/",
+    unoptimized: true,
   },
   webpack: (config, { dev }) => {
     config.plugins.push(
