@@ -80,7 +80,7 @@ function SecondPage() {
         <p>@Climate101. All rights reserved 2024</p>
         <ul className={cx("flex gap-6 font-medium")}>
           <li>
-            <Link href="#">Partners</Link>
+            <Link href="/partners">Partners</Link>
           </li>
           <li>
             <Link href="https://climate101-docs.gitbook.io/whitepaper_v1">
