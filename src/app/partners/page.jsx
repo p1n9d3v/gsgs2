@@ -28,31 +28,31 @@ function Partners() {
             src="/fzf.svg"
             width={146}
             height={90}
-            className={cx("w-full", "max-w-[120px]", "laptop:max-w-[193px]")}
+            className={cx("w-full", "max-w-[100px]", "laptop:max-w-[180px]")}
           />
           <Image
             src="/Venture.svg"
             width={240}
             height={70}
-            className={cx("w-full", "max-w-[130px]", "laptop:max-w-[241px]")}
+            className={cx("w-full", "max-w-[110px]", "laptop:max-w-[220px]")}
           />
           <Image
             src="/FirstBlock.svg"
             width={180}
             height={70}
-            className={cx("w-full", "max-w-[130px]", "laptop:max-w-[193px]")}
+            className={cx("w-full", "max-w-[110px]", "laptop:max-w-[180px]")}
           />
           <Image
             src="/layer-otc.png"
             width={230}
             height={70}
-            className={cx("w-full", "max-w-[180px]", "laptop:max-w-[300px]")}
+            className={cx("w-full", "max-w-[140px]", "laptop:max-w-[240px]")}
           />
           <Image
             src="/taskon.svg"
             width={230}
             height={70}
-            className={cx("w-full", "max-w-[150px]", "laptop:max-w-[280px]")}
+            className={cx("w-full", "max-w-[120px]", "laptop:max-w-[220px]")}
           />
           {/* <Image */}
           {/*   src="/Slowmist.svg" */}
